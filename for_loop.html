@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for_loop</title>
+</head>
+<style>
+ body {
+            color: blue;
+            font-size: 30px;
+        }
+</style>
+
+
+
+
+<body>
+    <script>
+    
+
+        let a=(prompt("Enter a number:"));
+        for(let i=1;i<=a;i++){
+            document.write("Hello_World" +"<br>");
+        }
+
+                 
+        let num = Number(prompt("Enter a number"));
+        for (let i=1;i<=num;i++) {
+            document.write(i +"<br>");
+        }
+                     
+
+
+        let table = Number(prompt("Enter a  table number"));
+        for (let i=1;i<=10;i++) {
+            document.write(i*table +"<br>");
+        }
+                       
+
+
+        let even = Number(prompt("Enter a number"));
+        for (let i = 1; i <= even; i++) {
+            if (i % 2 == 0) {
+                document.write(i + "<br>");
+            }
+        }
+                     
+                      
+
+        let odd = Number(prompt("Enter a number"));
+        for (let i = 1; i <= odd; i++) {
+            if (i % 2 !== 0) {
+                document.write(i + "<br>");
+            }
+        }
+                 
+
+
+               let n=Number(prompt("Enter a number"));
+               let sum=0;
+               for(let i=1;i<=n;i++){
+                sum+=i
+                document.write(i +" + ")
+               }
+               document.write("<br>");
+               document.write("Sum is :" + sum);
+               document.write("<br>");
+
+       let A=100;
+       console.log(A--)
+       console.log(A++)
+       console.log(A)
+       console.log(++A)
+       console.log(--A)
+
+
+    for(let i=20;i<=200;i++){
+    
+        document.write(i)
+        if(i%2==0){
+            document.write(":-it is a even number");
+        }
+        else{
+            document.write(":-it is a odd number");
+        }
+        document.write("<br/>")
+    }
+
+
+
+
+
+    for (let i=1;i<=100;i++){
+        if(i%3==0){
+            document.write("Fizz");
+        }
+        else if(i%5==0){
+            document.write("Buzz");
+        }
+        else if (i%3==0 && i%5==0){
+            document.write("FizzBuzz");
+        }
+        else{
+            document.write(i);
+        }
+    document.write("<br/>");
+    }
+
+
+
+
+
+    for(let i=100;i>=1;i--){
+        document.write(i)
+        document.write("<br/>")
+    }
+
+
+    for(let i=1;i<=1000;i++){
+        if(i>99 && i<201){
+            continue
+        }
+        else if(i>799 && i<901){
+            continue
+        }
+        else{
+            document.write(i);
+        }
+        document.write("<br/>");
+    }
+
+    let d=prompt("Enter your name:")
+    document.write(d.length);
+
+
+    let e=prompt("Enter your name:")
+    let f=e.length
+    for(let i=1;i<=f;i++){
+        document.write(e)
+        document.write("<br>")
+    }
+
+
+    let str = Number(prompt("Enter a number:"))
+    for(let i=1;i<=str;i++){
+        document.write("My name is deepesh")
+        document.write("<br>")
+    }
+
+
+            
+    </script>
+</body>
+
+</html>
